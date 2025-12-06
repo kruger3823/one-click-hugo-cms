@@ -5,17 +5,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Journey of Discovery - A Story in 8 Pages</title>
   <link rel="stylesheet" href="style.css">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L5FEDREHSP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-L5FEDREHSP');
+</script>
 </head>
 <body>
   <div class="story-container">
-    <!-- Page 1 -->
-    <div class="story-page active" data-page="1">
+    <!-- Header -->
+    <div class="story-header">
+      <h1>DAPPA</h1>
+      <p>by kruger </p>
+    </div>
+
+    <!-- Scrollable Pages Container -->
+    <div class="story-pages-container">
+      <!-- Page 1 -->
+      <div class="story-page active" data-page="1">
       <h2>The Beginning</h2>
       <p>
-        Sarah had always been drawn to mysteries. On a crisp autumn morning, as she sorted through her grandmother's attic, 
-        she discovered an old leather journal tucked behind a wooden beam. The cover was worn, its pages yellowed with age, 
-        and her name was written on the first page in elegant handwriting—her grandmother's handwriting. With trembling hands, 
-        she opened it and began to read.
+        When Harry’s mom told him to back off from her life, it turned out to
+be the biggest blow he ever took. It hurt him more than his girlfriend
+complaining to his friends that he didn’t tend to her girl needs
+I first saw him in sixth grade. He was a skinny, dark-haired kid always
+chasing after some kind of recognition. He was always dressed nicely,
+but he wore cheap clothes and had old-school accessories. It bugged
+him a lot, but he never let on. He always wanted to be one of us. There
+was this game we played, who had the most runs and wickets wins.
+Every day, we’d dash to the ground, which was this old, empty field,
+well-lit and surrounded by tiny concrete houses. Everyone got there
+on time because when there were four of us, a match would start.
+Those who weren’t there missed out on the runs and wickets, so
+everyone made sure to be there. Harry was a little guy. He couldn’t get
+many wickets and enough runs because he wasn’t strong enough to hit
+a six. One day, there were exactly four of them, so he even asked those
+guys to play along when he told the others about the six he scored
+when they weren’t around.
+I used to have poor taste in clothes and apparel. I also aimed to wear
+inexpensive items . The only person who consistently offered good
+advice on how to wear affordable yet stylish clothing was Harry. I
+appreciated Harry's ongoing support. I loved bicycling in both pouring
+rain and scorching heat, and Harry always accompanied me.
+But he has his episodes. A classic example is when he slapped one of
+our friends for putting his hand in Harry’s plate; he was really
+shocked. Harry reacted very differently. He gets bullied now and then,
+but he still responds to these small things.
+The death of his father didn’t seem to shake him at all, or that we
+know of. I haven’t seen him crying about it. One guy among us,
+named Aryan, grew fond of him. Harry was very pretentious and
+always hid his feelings. Aryan, who was illiterate, worked very hard to
+be part of the group. He and Harry got along too well. They both
+shared their compassion for unaffordable luxurious goods. We three
       </p>
     </div>
 
@@ -99,6 +147,7 @@
         that curiosity and determination could unlock the secrets of the world.
       </p>
     </div>
+    </div>
 
     <!-- Controls -->
     <div class="controls">
@@ -108,6 +157,7 @@
       </span>
       <button id="nextBtn" onclick="changePage(1)">Next →</button>
     </div>
+    <div class="progress-bar" id="progressBar"></div>
   </div>
 
   <script src="script.js"></script>

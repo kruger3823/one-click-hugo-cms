@@ -15,6 +15,10 @@ function showPage(pageNum) {
   // Update page counter
   document.getElementById('currentPage').textContent = pageNum;
 
+  // Update progress bar
+  const progress = (pageNum / totalPages) * 100;
+  document.getElementById('progressBar').style.width = progress + '%';
+
   // Update button states
   document.getElementById('prevBtn').disabled = pageNum === 1;
   document.getElementById('nextBtn').disabled = pageNum === totalPages;
